@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HALOOO</title>
+</head>
+<body>
+    <h2>Masukan Nama Kamu</h2>
+    <input type="text" id="nama" placeholder="nama">
+    <button onclick="tampilkanNama()">Tampilkan</button>
+
+    <p id="hasil"></p>
+
+    <script>
+        function tampilkanNama() {
+            var nama=document.getElementById("nama").value;
+            
+            document.getElementById("hasil").innerHTML= "Halo ," + nama + " love youu"
+        }
+    </script>
+    
+</body>
+</html>
